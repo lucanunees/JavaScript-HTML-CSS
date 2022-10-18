@@ -9,3 +9,11 @@ console.log(123456); //Tipo INT
 console.log('Meu nome é: "Lucas Nunes". Estou aprendendo JavaScript às', 10,'da manhã.' ); 
 
 // Repositorio: https://github.com/luizomf/curso-js
+
+
+// Comentários.
+/*   
+
+    Bloco de comentário.
+
+*/
