@@ -43,7 +43,7 @@
 //console.log(umaString.slice(-5)); // Desta forma também funciona, ele pega o valor total da minha string e tira o valor indicado e pega o valor.
 //console.log(umaString.slice(1));
 
-        // A função substring também faz a mesma coisa:
+        // A função substring também faz a mesma coisa que a slice:
         // Ele pegou o valor total da string(8) e tirou 1, no caso ficou 7, ele retorna esse elemento da posição 07
 //console.log(umaString.substring(umaString.length, umaString.length -1)); 
 
