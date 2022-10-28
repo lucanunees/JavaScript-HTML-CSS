@@ -25,3 +25,27 @@
     // Colocando o ${} entre as variaveis ele mostra o valor delas.
     // Isso se chama Template strings
 //console.log(`${nome} ${sobreNome} nasceu em ${anoNascimento}.`)
+
+
+
+
+    //Segundo Exercicio com variaveis //
+    //Passar os valores das variaveis para as variaveis
+
+//let varA = 'A' // Variável A recebe o valor da B
+//let varB = 'B' // Variável A recebe o valor da C
+//let varC = 'C' // Variável A recebe o valor da A
+
+//const variA = varA
+//const variB = varB
+//const variC = varC
+
+//varA = variB
+//varB = variC
+//varC = variA   
+
+//console.log(varA, varB, varC);
+
+    //Poderia utilizar array
+
+//[varA, varB, varC] = [varB, varC, varA]
