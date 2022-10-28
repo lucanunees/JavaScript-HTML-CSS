@@ -1,5 +1,0 @@
-    // ALERT, CONFIRM E PROMPT //
-
-
-    
-
