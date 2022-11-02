@@ -24,18 +24,12 @@ textoDiv.innerHTML += `<p>Arredondado para baixo: <strong>${Math.floor(numero)}<
 textoDiv.innerHTML += `<p>Arredondado para cima: <strong>${Math.ceil(numero)}</strong></p>`;
 textoDiv.innerHTML += `<p>Com duas casas decimais: <strong>${numero.toFixed(2)}</strong></p>`;
 
-
-
-
     //Jeito que eu fiz, correto porém tem outra forma.
-
 
 //let numCalc = prompt("Digite o número:");
 //numCalc = Number(numCalc); // Transformando esse numero em Number, pois ele vem em string.
 //const numFinal = numCalc
 //const raizQuadrad = numFinal ** 0.5;
-
-
 
 //document.body.innerHTML += `<strong>Seu número é: ${numFinal}<strong>           <br />`;
 //document.body.innerHTML += `Raiz quadrada do número é: ${raizQuadrad}          <br />`;
