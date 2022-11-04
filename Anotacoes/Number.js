@@ -1,6 +1,6 @@
 
-//let num1 = 1;
-//let  num2 = 2.5;
+let num1 = 1;
+let  num2 = 2.5;
 
     //Aqui ele iria somar, pois as duas variaveis são number.
 
@@ -44,7 +44,7 @@ console.log(Number.isInteger(num1));
     // e o retorno é esse significa que tem alguma conta
     // invalida.
 
-//let temp = num1 + "Ola"; // Neste caso ele retornará NaN pois 
+let temp = num1 + "Ola"; // Neste caso ele retornará NaN pois 
                         // Estou tentando somber number com string.
 
     // Para verificar se o resultado é NaN eu posso fazer uma
