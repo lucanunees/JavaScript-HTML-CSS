@@ -13,10 +13,10 @@ const alunos = ['Lucas','Mateus','Edson', 'Bruno', 'Arthur'];
 
 
     // Para ACESSAR o indice da array, ele retorna o elemento inteiro. (Lucas)
-//console.log(alunos[0]); 
+console.log(alunos[0]); 
 
     //Para EDITAR um elemento dentro de uma array, eu coloco o indice = o novo valor.
-//alunos[0] = 'Rafael';
+alunos[0] = 'Rafael';
 
     //Para ADICIONAR um novo elemento na array.
 alunos[5] = 'Lucas'; // Basta acrescentar um indice que ainda não foi criado.
@@ -39,20 +39,20 @@ console.log(alunos);
 console.log(alunos.length);
 
     // Para REMOVER um elemento, nesse caso ele removerá o ULTIMO elemento.
-//alunos.pop(); // É POSSIVEL SALVAR o elemento removido em uma variavel.
-//const alunosApagados = alunos.pop();
-//console.log(alunosApagados);
+alunos.pop(); // É POSSIVEL SALVAR o elemento removido em uma variavel.
+const alunosApagados = alunos.pop();
+console.log(alunosApagados);
 
     // Para REMOVER um elemento, nesse caso ele removerá o PRIMEIRO elemento.
-//alunos.shift();
+alunos.shift();
 
     // Para REMOVER um elemento, nesse caso sem apagar junto o indice, deixando o indice vazio.
-//console.log(alunos);
+console.log(alunos);
     // Ele mostrara o indice 0 como <1 empty item> no lugar do indice.
-//delete alunos[0];
-//delete alunos[1];
-//delete alunos[5]; 
-//console.log(alunos); 
+delete alunos[0];
+delete alunos[1];
+delete alunos[5]; 
+console.log(alunos); 
 
     // Para PEGAR UMA PARTE ESPECIFICA da array, nesse caso quero pegar do indice 0 até 0 3,
     //utilizando o slice(0,3) eu coloco a partir do indice inicial até o final.

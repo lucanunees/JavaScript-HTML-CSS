@@ -26,15 +26,15 @@ textoDiv.innerHTML += `<p>Com duas casas decimais: <strong>${numero.toFixed(2)}<
 
     //Jeito que eu fiz, correto porém tem outra forma.
 
-//let numCalc = prompt("Digite o número:");
-//numCalc = Number(numCalc); // Transformando esse numero em Number, pois ele vem em string.
-//const numFinal = numCalc
-//const raizQuadrad = numFinal ** 0.5;
+let numCalc = prompt("Digite o número:");
+numCalc = Number(numCalc); // Transformando esse numero em Number, pois ele vem em string.
+const numFinal = numCalc
+const raizQuadrad = numFinal ** 0.5;
 
-//document.body.innerHTML += `<strong>Seu número é: ${numFinal}<strong>           <br />`;
-//document.body.innerHTML += `Raiz quadrada do número é: ${raizQuadrad}          <br />`;
-//document.body.innerHTML += `${numFinal} é inteiro: ${Number.isInteger(numFinal)} <br />`;
-//document.body.innerHTML += `${numFinal} é NaN: ${Number.isNaN(numFinal)}         <br />`;
-//document.body.innerHTML += `Arredondado para baixo: ${Math.floor(numFinal)}     <br />`;
-//document.body.innerHTML += `Arredondado para cima: ${Math.ceil(numFinal)}       <br />`;
-//document.body.innerHTML += `Com duas casas decimais: ${numFinal.toFixed(2)}     <br />`;
+document.body.innerHTML += `<strong>Seu número é: ${numFinal}<strong>           <br />`;
+document.body.innerHTML += `Raiz quadrada do número é: ${raizQuadrad}          <br />`;
+document.body.innerHTML += `${numFinal} é inteiro: ${Number.isInteger(numFinal)} <br />`;
+document.body.innerHTML += `${numFinal} é NaN: ${Number.isNaN(numFinal)}         <br />`;
+document.body.innerHTML += `Arredondado para baixo: ${Math.floor(numFinal)}     <br />`;
+document.body.innerHTML += `Arredondado para cima: ${Math.ceil(numFinal)}       <br />`;
+document.body.innerHTML += `Com duas casas decimais: ${numFinal.toFixed(2)}     <br />`;
