@@ -59,7 +59,6 @@ const pessoa5 = criaObjeto('Cleidiene','Domingos',48);
 console.log(pessoa5.nome, pessoa5.sobrenome);
 
     //Se o nome dos parametros forem iguais ao dos atributos, basta colocar os atributos sem utilizar o :
-
 console.log("Utilizando a criação mais curta da função factor:");    
 function criaObjeto2(nome,sobrenome,idade){
     return{nome,sobrenome,idade};
