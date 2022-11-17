@@ -28,3 +28,11 @@ Number = Número
     //Para verificar o tipo de dado, qual o tipo da minha váriavel se é int, string etc
 console.log(typeof(primeiroNumero))
 
+
+    //Extensões utilizadas no VsCode
+// Code Runner = Executa os scrips JS.
+//Code time = Metrica de tempo que você esta codando.
+//Git Graph = Mostra as branch.
+// Tema Dracula = Muda as cores e fontes.
+// Material Icon Theme = Visualizador de pastas (mudar o tema)
+
