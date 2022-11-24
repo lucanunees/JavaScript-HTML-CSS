@@ -1,4 +1,4 @@
-        // ESTRUTURA CONDICIONAL IF & ELSE IF & ELSE //
+                // ESTRUTURA CONDICIONAL IF & ELSE IF & ELSE //
 
 /*
 
@@ -10,51 +10,68 @@ Podemos usar condições sem Else if, utilizando apenas if e else.
 
 */
 
-   // Exemplo:
+        // Exemplo:
 const hora = 15;
 const hora2 = 13;
 
-   // Se a hora for menor que 12, ele irá entrar (true) dentro do if e executar o console.log.     
+        // Se a hora for menor que 12, ele irá entrar (true) dentro do if e executar o console.log.     
 
 console.log('Condição IF (true):')
-if (hora < 12){
+if (hora < 12) {
         console.log('Bom dia!');
-        
+
 }
 
-   // Se a hora for menor   12 a condição já seria (false) e não executaria o bloco de código.
+        // Se a hora for menor   12 a condição já seria (false) e não executaria o bloco de código.
 console.log('------------------------------------');
 console.log('Condição IF (false):')
-if (hora2 < 12){
+if (hora2 < 12) {
         console.log('Bom dia!');
 }
 
-   // Para criar uma estrutura condicional, eu posso acrescentar o else if, ou seja se a condição IF for (false), 
-   // Ele verifica a condição else if.
-   // Se a condição IF for (true), ele ignora o else if.
+// Para criar uma estrutura condicional, eu posso acrescentar o else if, ou seja se a condição IF for (false), 
+// Ele verifica a condição else if.
+// Se a condição IF for (true), ele ignora o else if.
 
 console.log('------------------------------------');
 console.log('Condição IF e Else IF e Else:')
 
-if (hora >= 0 && hora <= 11){
+if (hora >= 0 && hora <= 11) {
         console.log('Bom dia!');
-}else if(hora >= 12 && hora <= 17){
+} else if (hora >= 12 && hora <= 17) {
         console.log('Boa tarde!');
-}else if(hora >= 18 && hora <= 23){
+} else if (hora >= 18 && hora <= 23) {
         console.log('Boa noite!');
-}else{ // A condição else, significa que se nenhuma acima for verdadeira, ele executa o else.
+} else { // A condição else, significa que se nenhuma acima for verdadeira, ele executa o else.
         console.log('Verificar a hora informada!');
 }
 
-   // Outra exemplo utilizando true or false.
+        // Outra exemplo utilizando true or false.
 console.log('------------------------------------');
 console.log('Outro exemplo utilizando true or false:');
 const tenhoDinheiro = false;
 
-if (tenhoDinheiro){ // Aqui ele valida se a condição é true, se a variavel é true.
+if (tenhoDinheiro) { // Aqui ele valida se a condição é true, se a variavel é true.
         console.log('Bora gastar! ;)');
-}else { // Se for false ele cairá no else.
+} else { // Se for false ele cairá no else.
         console.log('Bora ficar em casa :(')
 }
+
+                // AULA 2 //
+console.log('------------------------------------');
+console.log('Aula 2');
+const numero = 10;
+
+        //Ele sempre irá checar a condição e se for verdadeira o restante do código não é executado.
+        // É executado e irá sair da estrutura IF.
+if (numero >= 0 && numero <= 5) {
+        console.log('O numero está entre 0 e 5.');
+} else if (numero >= 6 && numero <= 10) {
+        console.log('O numero está entre 6 e 10.');
+} else {
+        console.log('Numero não esta entre 0 e 10.');
+}
+
+
 
 
