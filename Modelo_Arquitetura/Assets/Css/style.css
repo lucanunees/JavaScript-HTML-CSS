@@ -1,0 +1,76 @@
+/* Link da font utilizada, retirada do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+/* Criando variaveis globais. */
+:root{
+    --primary-color: antiquewhite;
+}
+
+/* Esse bloco de código pega todas as tags, do html. */
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* Estilizando tudo que esta dentro do body (corpo da pagina) */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color); /*Uma forma de usar a variavel.*/
+    font-family: 'Coming Soon', cursive;
+    font-size: 1.0em;
+    line-height: 1.2em;
+
+}
+
+/* Estilizando tudo que está dentro do container */
+.container{
+    max-width: 640px;
+    margin: 40px auto; /*desta forma deixa o conteudo no centro da tela (body).
+                         Aonde esta 25px, ele esta dando espaço do topo e de baixo, o auto pega das laterais. */
+    padding: 20px; /*O padding vai afastar o conteudo, (h1,p e Form) das bordas da section */
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Estilizando o layout do forms */
+/* Como não foi colocado classe dentro do form, eu vou pegar tudo que tenha uma tag form e input. */
+form input, form label, form button{
+    display: block;
+    width: 100%; /* para ele pegar toda a Largura da section no caso os input, label e button*/
+    margin-bottom: 10px; /*Separar os elementos acima, dando um espaçamento entre eles.*/
+}
+
+/* Estilizando o input */
+
+form input{
+    font-size: 20px; /*Font dentro do campo*/
+    height: 25px;    /*espaçamento entre as linhas*/
+    padding: 0 20px; /* espaçamento somente lateral*/
+}
+
+/* Ao clicar no input mudar a cor da linha */
+
+form input:focus{
+    outline: 1px solid red;
+}
+
+/* Estilizando o button */
+
+form button{
+    border: none;
+    background-color: rgb(223, 221, 221);
+    color: black; /*Cor da fonte*/
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Ao passar o mouse em cima do button ele muda a cor de fundo */
+form button:hover{
+    background-color: var(--primary-color);
+    border-color: black;
+    
+}
